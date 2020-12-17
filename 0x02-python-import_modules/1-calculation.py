@@ -6,4 +6,4 @@ if __name__ == "__main__":
     b = 5
     d = {"+": add, "-": sub, "*": mul, "/": div}
     for op in "+-*/":
-        print("(:d} {:s} {:d} = {:d}".format(a, op, b, d[op](a, b)))
+        print("{:d} {:s} {:d} = {:d}".format(a, op, b, d[op](a, b)))
