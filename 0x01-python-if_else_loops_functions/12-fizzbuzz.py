@@ -7,16 +7,16 @@ def fizzbuzz():
 
         if (a % 3 == 0 and a % 5 == 0):
 
-            print("FizzBuzz")
+            print("FizzBuzz", end=" ")
 
         elif a % 3 == 0:
 
-            print("Fizz")
+            print("Fizz", end=" ")
 
         elif a % 5 == 0:
 
-            print("Buzz")
+            print("Buzz", end=" ")
 
         else:
 
-            print("{}".format(a), end=' ')
+            print("{}".format(a), end=" ")
