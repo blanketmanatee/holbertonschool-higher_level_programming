@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+
 def fizzbuzz():
 
     for a in range (1, 101):
@@ -8,14 +9,14 @@ def fizzbuzz():
 
             print("FizzBuzz")
 
-    elif (a % 3 == 0):
+        elif a % 3 == 0:
 
-        print("Fizz")
+            print("Fizz")
 
-    elif (a % 5 == 0):
+        elif a % 5 == 0:
 
-        print("Buzz")
+            print("Buzz")
 
-    else:
+        else:
 
-        print("{}".format(a), end=' ')
+            print("{}".format(a), end=' ')
