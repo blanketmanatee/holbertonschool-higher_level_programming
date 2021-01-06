@@ -5,7 +5,7 @@
 class Square:
     """class square"""
     def __init__(self, size=0):
-        """size"""
+        """size and words"""
         if type(size) is int:
             if size < 0:
                 raise ValueError('size must be >= 0')
@@ -15,7 +15,7 @@ class Square:
                 raise TypeError('size must be an integer')
 
     def area(self):
-        """area"""
+        """area and words"""
         return self.__size **2
 
     @property
