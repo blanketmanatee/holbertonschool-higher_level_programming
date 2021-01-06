@@ -3,8 +3,7 @@
 
 
 class Square:
-""" this is a square """
+    """ this is a square """
     def __init__(self):
         """ blah blah blah """
     pass
-""" blah blah blah """
