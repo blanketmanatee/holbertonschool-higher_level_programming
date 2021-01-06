@@ -7,4 +7,4 @@ class Square:
     def __init__(self):
         """ blah blah blah """
     pass
-
+""" blah blah blah """
