@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+""" class square gets area getter and setter """
 
 class Square:
     """class square"""
