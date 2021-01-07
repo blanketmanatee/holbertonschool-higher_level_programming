@@ -18,11 +18,11 @@ class Square:
     def size(self, value):
         """validates size"""
 
-        if type(size) is int:
-            if size < 0:
+        if type(value) is int:
+            if value < 0:
                 raise ValueError('size must be >= 0')
             else:
-                self.__size = size
+                self.__size = value
         else:
                 raise TypeError('size must be an integer')
 
