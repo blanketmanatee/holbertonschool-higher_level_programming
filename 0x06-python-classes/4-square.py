@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ class square gets area getter and setter """
 
+
 class Square:
     """class square"""
 
@@ -28,4 +29,4 @@ class Square:
 
     def area(self):
         """area and words"""
-        return self.__size **2
+        return self.__size ** 2
