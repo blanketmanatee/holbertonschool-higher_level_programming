@@ -17,6 +17,7 @@ class Square:
     @size.setter
     def size(self, value):
         """validates size"""
+
         if type(size) is int:
             if size < 0:
                 raise ValueError('size must be >= 0')
