@@ -38,12 +38,6 @@ class Square:
         else:
                 raise TypeError('size must be an integer')
 
-    def area(self):
-        """args:
-        self: object
-        gets area of the square"""
-        return self.__size ** 2
-
     @property
     def position(self):
         """getter function to retrieve private position attribute"""
@@ -65,6 +59,12 @@ class Square:
             raise TypeError("position must be a tuple of 2 positive integers")
         else:
             self.__position = value
+
+def area(self):
+        """args:
+        self: object
+        gets area of the square"""
+        return self.__size ** 2
 
     def my_print(self):
         """prints square with #"""
