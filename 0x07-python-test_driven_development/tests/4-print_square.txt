@@ -1,5 +1,5 @@
 ===============================
-2. Prints square
+4. Prints square
 ===============================
 
 Import module:
