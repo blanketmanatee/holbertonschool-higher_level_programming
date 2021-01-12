@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Class rectangle"""
 
+
 class Rectangle:
     def __init__(self, width=0, height=0):
         """size"""
@@ -29,8 +30,8 @@ class Rectangle:
             if type(value) is int:
                 if value < 0:
                     raise ValueError('width must be >= 0')
-                else: self.__width = value
-
+                else: 
+                    self.__width = value
             else:
                 raise TypeError('width must be an integer')
-        
+            
