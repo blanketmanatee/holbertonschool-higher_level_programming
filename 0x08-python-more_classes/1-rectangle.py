@@ -3,8 +3,9 @@
 
 
 class Rectangle:
+    """ Rectangle class width and height """
     def __init__(self, width=0, height=0):
-        """size"""
+        """ size """
 
         self.width = width
         self.height = height
@@ -17,7 +18,6 @@ class Rectangle:
         @width.setter
         def width(self, value):
             """validates width"""
-
             if not isinstance(value, int):
                 raise TypeError('width must be an integer')
             if value < 0:
