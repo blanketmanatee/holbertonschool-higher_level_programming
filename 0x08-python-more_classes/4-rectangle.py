@@ -61,7 +61,9 @@ class Rectangle:
         return shape
 
     def __repr__(self):
+        """ rectangle representation """
         return "Rectangle({:d}, {:d})".format(self.width, self.height)
 
     def __del__(self):
+        """ deleting instance """
         print("Bye rectangle...")
