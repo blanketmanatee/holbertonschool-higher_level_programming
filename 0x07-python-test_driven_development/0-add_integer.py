@@ -18,3 +18,4 @@ def add_integer(a, b):
     if not (isinstance(b, int) or isinstance(b, float)):
         raise TypeError("b must be an integer")
     return (a + b)
+    
