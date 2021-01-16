@@ -3,12 +3,12 @@
 
 
 def add_integer(a, b):
-""" 
-A and B must be ints or floats
-otherwise TypeError raise. 
-A and B must be casted if they are floats.
-Returns an int.
-"""
+    """ 
+    A and B must be ints or floats
+    otherwise TypeError raise. 
+    A and B must be casted if they are floats.
+    Returns an int.
+    """
     if isinstance(a, float):
         a = int(a)
     if isinstance(b, float):
