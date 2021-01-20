@@ -7,4 +7,4 @@ def is_kind_of_class(obj, a_class):
     inherited from the specified class. If not return
     False. """
 
-    
+    return isinstance(obj, a_class)
