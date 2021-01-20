@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+""" checks using isinstance """
 
 
 def is_kind_of_class(obj, a_class):

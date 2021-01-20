@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+""" inheritance """
 rectangle = __import__('9-rectangle.py').rectangle
 
 

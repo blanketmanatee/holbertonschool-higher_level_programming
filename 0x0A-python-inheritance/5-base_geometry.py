@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+""" empty new class """
 
 
 class BaseGeometry:

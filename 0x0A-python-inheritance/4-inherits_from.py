@@ -1,4 +1,5 @@
 #!/use/bin/python3
+""" using type and insinstance """
 
 
 def inherits_from(obj, a_class):

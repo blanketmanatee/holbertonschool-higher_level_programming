@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+""" inheritance """
 BaseGeometry = __import__('7-base_geometry.py').BaseGeometry
 
 
@@ -12,15 +13,15 @@ class Rectangle(BaseGeometry):
     print() should print and str() should return
     [Rectangle] <width>/<height> """
 
-     self.integer_validator("width", width)
-     self.integer_validator("height", height)
-     self.__width = width
-     self.__height = height
+    self.integer_validator("width", width)
+    self.integer_validator("height", height)
+    self.__width = width
+    self.__height = height
 
-     def area(self):
+    def area(self):
          """returns area"""
          return self.__width * self.__height
 
-     def __str__(self)
+    def __str__(self):
      """ return description of rectangle """
-     return "[Rectangle] {:d}/{:d}".format(self.__width, self.__height)
+    return "[Rectangle] {:d}/{:d}".format(self.__width, self.__height)
