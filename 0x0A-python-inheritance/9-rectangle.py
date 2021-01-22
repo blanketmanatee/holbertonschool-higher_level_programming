@@ -12,16 +12,17 @@ class Rectangle(BaseGeometry):
     and validated by integer_validator
     print() should print and str() should return
     [Rectangle] <width>/<height> """
+     
+def __init__(self, width, height):
+     super().integer_validator("width", width)
+     self.__width = width
+     super().integer_validator("height", height)
+     self.__height = height
 
-    self.integer_validator("width", width)
-    self.integer_validator("height", height)
-    self.__width = width
-    self.__height = height
+     def __str__(self):
+          """ return description of rectangle """
+          return "[Rectangle] {:d}/{:d}".format(self.__width, self.__height)
 
-    def area(self):
-         """returns area"""
-         return self.__width * self.__height
-
-    def __str__(self):
-     """ return description of rectangle """
-    return "[Rectangle] {:d}/{:d}".format(self.__width, self.__height)
+     def area(self):
+          """returns area"""
+          return self.__width * self.__height
