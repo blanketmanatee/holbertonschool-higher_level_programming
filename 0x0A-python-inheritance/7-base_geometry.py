@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" new class """
+""" new class based on previous BaseGeometry """
 
 
 class BaseGeometry:
