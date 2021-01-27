@@ -75,7 +75,15 @@ class Rectangle(Base):
 
     def display(self):
         """ printing the shape """
-        if self.width == 0 or self.height == 0:
+        for y in range(0, self.__y):
+            print("")
+        for i in range(0, self.__height):
+            for h in range(0, self.__x):
+                print("", end="")
+            for w in range(0, self.__width):
+                print("#", end="")
+            print("")
+        """if self.width == 0 or self.height == 0:
             print("")
             return
         for h in range(0, self.height):
@@ -86,7 +94,7 @@ class Rectangle(Base):
             return
         for x in range(0, self.x):
             [print('#', end="") for x in range(self.x)]
-            """ print("") """
+            print("") """
 
     def __str__(self):
         """ describing the shape """
