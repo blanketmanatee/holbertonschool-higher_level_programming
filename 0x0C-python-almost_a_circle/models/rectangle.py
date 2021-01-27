@@ -82,24 +82,10 @@ class Rectangle(Base):
                 print("", end="")
             for w in range(0, self.__width):
                 print("#", end="")
-            print("")
-        """if self.width == 0 or self.height == 0:
-            print("")
-            return
-        for h in range(0, self.height):
-            [print('#', end="") for w in range(self.width)]
-            print("")
-        if self.x == 0 or self.y == 0:
-            print("")
-            return
-        for x in range(0, self.x):
-            [print('#', end="") for x in range(self.x)]
-            print("") """
 
     def __str__(self):
         """ describing the shape """
-        return "[Rectangle] ({:d}) {:d}/{:d} - {:d}/{:d}".format
-        (self.id, self.x, self.y, self.width, self.height)
+        return "[Rectangle] ({:d}) {:d}/{:d} - {:d}/{:d}".format(self.id, self.x, self.y, self.width, self.height)
 
     def update(self, *args, **kwargs):
         """ adding args and kwargs """
