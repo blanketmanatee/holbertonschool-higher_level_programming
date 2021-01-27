@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ base of all classes for this project """
 
+
 class Base:
     """ class with private class attribute nb_objects """
 
