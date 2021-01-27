@@ -86,7 +86,7 @@ class Rectangle(Base):
             return
         for x in range(0, self.x):
             [print('#', end="") for x in range(self.x)]
-            print("")
+            """ print("") """
 
     def __str__(self):
         """ describing the shape """
