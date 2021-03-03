@@ -1,4 +1,3 @@
--- creates database hbtn_0d_usa and table states
+-- create the table unique_id id INT default value 1 and unique name VARCHAR(256)
 
-CREATE DATABASE IF NOT EXISTS hbtn_0d_usa;
-CREATE TABLE IF NOT EXISTS 'states' (id INT DEFAULT 1, UNIQUE (ID), name VARCHAR(256));
+CREATE TABLE IF NOT EXISTS unique_id (id INT DEFAULT 1, UNIQUE(ID), name VARCHAR(256));
