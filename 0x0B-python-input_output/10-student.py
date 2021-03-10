@@ -14,7 +14,7 @@ class Student():
         """ retrieves dict """
         if attrs is None:
             return self.__dict__
-        dict={}
+        dict = {}
         for a in attrs:
             try:
                 dict[a] = self.__dict__[a]
