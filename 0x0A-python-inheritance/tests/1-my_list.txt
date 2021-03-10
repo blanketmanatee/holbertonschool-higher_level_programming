@@ -30,12 +30,3 @@ Returns a new list
     >>> my_list
     [9, 1, 8]
 
-check print_sorted() with no sorted append with negative number
-    >>> l.append(-1)
-    >>> l.append(5)
-    >>> print(l)
-    [4, 3, 2, 1, -1, 5]
-    >>> l.print_sorted()
-    [-1, 1, 2, 3, 4, 5]
-    >>> print(l)
-    [4, 3, 2, 1, -1, 5]
