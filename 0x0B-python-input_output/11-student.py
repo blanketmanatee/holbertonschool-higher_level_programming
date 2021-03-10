@@ -14,7 +14,7 @@ class Student():
         """ retrieves dict """
         if attrs is None:
             return self.__dict__
-        dict={}
+        dict = {}
         for a in attrs:
             try:
                 dict[a] = self.__dict__[a]
@@ -22,7 +22,7 @@ class Student():
                 pass
         return dict
 
-    def reload_from_json(self, json): 
+    def reload_from_json(self, json):
         """ replaces all attributes of student instance """
         for key in json:
             try:
