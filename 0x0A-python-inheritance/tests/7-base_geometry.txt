@@ -7,6 +7,7 @@ import
 area
     >>> bg.area()
     Traceback (most recent callback last):
+    ...
     Exception: area() is not implemented
 
 None
