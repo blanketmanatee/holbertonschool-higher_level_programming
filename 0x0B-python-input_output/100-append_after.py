@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ append after """
 
+
 def append_after(filename="", search_string="", new_string=""):
     """ inserts lines """
     key = " "
