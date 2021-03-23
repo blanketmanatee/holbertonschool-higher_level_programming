@@ -1,0 +1,16 @@
+7-base_geometry
+====================
+
+import
+    >>> bg = __import__('7-base_geometry').BaseGeometry
+
+Negative
+    >>> bg.integer_validator("distance", -1)
+    Traceback (most recent call last)
+    ValueError: int must be greater than 0
+
+Zero
+    >>> bg.integer_validator("age", 0)
+    Traceback (most recent call last)
+    ValueError: int must be greater than 0
+

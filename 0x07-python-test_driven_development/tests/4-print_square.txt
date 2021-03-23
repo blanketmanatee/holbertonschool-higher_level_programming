@@ -1,0 +1,65 @@
+===============================
+4. Prints square
+===============================
+
+Import module:
+==============
+    >>> print_square = __import__('4-print_square').print_square
+
+
+Function:
+=========
+Write a function that prints a square
+
+
+negative integer
+>>> print_square(-1)
+Traceback (most recent call last):
+ValueError: size must by >= 0
+
+
+zero passed as an argument
+>>> print_square(0)
+
+
+string passed as an argument
+>>> print_square('Monty Python')
+Traceback (most recent call last):
+TypeError: size must be an integer
+
+
+no arguments
+>>> print_square()
+Traceback (most recent call last):
+TypeError: print_square() missing 1 required positional argument: 'size'
+
+
+valid integer passed
+>>> print_square(4)
+####
+####
+####
+####
+
+a large integer passed
+>>> print_square(20)
+####################
+####################
+####################
+####################
+####################
+####################
+####################
+####################
+####################
+####################
+####################
+####################
+####################
+####################
+####################
+####################
+####################
+####################
+####################
+####################
