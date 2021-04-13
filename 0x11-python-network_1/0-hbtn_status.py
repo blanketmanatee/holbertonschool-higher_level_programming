@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """ fetches URL using urlib """
-import urllib.requests
+import urllib.request
 
 
 if __name__ == "__main__":
