@@ -7,9 +7,16 @@ import requests
 
 
 if __name__ == "__main__":
-    letter = "" if len(sys.argv)
-    payload = {"q": letter}
-
-    r = requests.post("http://0.0.0.0:5000/search_user", data=payload)
+    if len(sys.argv) > 1:
+        q = argv[1]
+    else:
+        q = ''
     try:
-        response = r.json
+        url = 'http://0.0.0.0:5000/search_user'
+        payload = {'q': q}
+        r = requests.post(url, payload).json()
+
+        if {'id', 'name'} <= r.keys():
+            print('[{id}] {name}'.format(id=r.get('id'), name=r.get('name')))
+        else:
+            print("No result")
