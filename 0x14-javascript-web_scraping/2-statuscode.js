@@ -7,12 +7,11 @@ require('request').get(process.argv[2], function (err, r, body) {
 	    let counter = 0;
 	    let data = JSON.parse(body).results;
 	    for (let i = 0; i < data.length; i++) {
-		if (data[i].characters[n].includes('/18/')) {
+		if (data[i].characters[n].includes('/18/') {
 		    counter++;
 		    break;
 		    }
 		}
-	    }
     console.log(counter);
     }
 });
